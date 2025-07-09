@@ -6,7 +6,7 @@ main section{
 }
 /* banner */
 #banner{
-    background-image: url(../images/Banner\ image.png);
+    background-image: url(../images/Banner\ Image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,7 +17,7 @@ main section{
     text-align: center;
     align-items: center;
     filter: brightness(80%);
- 
+   margin-bottom: 100px;
 }
 #banner h3,h1{
     color:#FFFFFF;
@@ -39,12 +39,13 @@ main section{
 /* offer */
 #offer{
     text-align: center;
+    margin-bottom: 100px;
 }
 #offer .off{
     color: red;
     font-weight:bold ;
     font-size: 88px;
-    margin-bottom: 72px;
+    margin-bottom: 60px;
 }
 #offer h3{
     color: red;
@@ -57,3 +58,73 @@ main section{
     font-size: 48px;
     margin-bottom: 48px;
 }
+/* party */
+#party{
+    background-image: url(../images/Vectorrr.png);
+    height:600px ;
+    width:1320px ;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+.party-container{
+display: flex;
+justify-content: space-between;
+padding: 75px 100px;
+align-items: center;
+gap: 10px;
+}
+.party-content h2{
+    font-weight: black;
+    color: #FFFFFF;
+    font-size: 64px;
+    width: 642px;
+    height: 176px;
+}
+.party-content p{
+    color:#FFFFFF80 ;
+    font-size:18px ;
+    width: 697px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.party-btn{
+    background: none;
+    font-size:20px;
+    border: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+/* meeting */
+#meeting{
+    margin-bottom: 100px;
+       height:482px;
+       width:1320px;
+}
+.meeting-content{
+    padding: 200px;
+    text-align: center;
+    background:linear-gradient(#ff000062,#ff000007);
+    border-radius: 16px;
+
+}
+.meeting-content p{
+    font-weight: 600px;
+    font-size: 32px;
+}
+.meeting-content p span{
+    color: #ff0000;
+}
+.ptn{
+    background-color: #ff0000;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    margin-top: 60px;
+    border: none;
+
+}
+
+
