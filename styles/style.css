@@ -97,12 +97,12 @@ gap: 10px;
 }
 /* meeting */
 #meeting{
-    margin-bottom: 100px;
+    margin-bottom: 100px; 
        height:482px;
        width:1320px;
 }
 .meeting-content{
-    padding: 200px;
+    padding: 100px;
     text-align: center;
     background:linear-gradient(#ff000062,#ff000007);
     border-radius: 16px;
@@ -124,7 +124,49 @@ gap: 10px;
     border-radius: 8px;
     margin-top: 60px;
     border: none;
-
 }
-
+/* dolor */
+#dolor{
+     margin-top: 100px;
+     width: 1320px;
+     height: 463px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.d-img{
+    border:5px solid #ff0000;
+    border-radius: 50%;
+    padding: 10px;
+    width: 463px;
+    height: 463px;
+}
+.coming-soon {
+    height:255px ;
+    width:393px ;
+}
+.coming-soon h3{
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: medium;
+    margin-bottom: 8px;
+}
+.coming-soon h2{
+    font-size: 48px;
+    margin-bottom: 22px;
+    color: black;
+}
+.coming-soon,.dolor-date p{
+    font-size: 20px;
+    color:#07021183 ;
+}
+.dolor-date h2{
+    color: #ff0000;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.data-1{
+    width: 276px;
+    margin-bottom:16px;
+}
 
