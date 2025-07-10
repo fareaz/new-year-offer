@@ -273,7 +273,8 @@ gap: 10px;
 }
 /* footer */
 footer{
-    background-color: black;   
+    background-color: black;  
+    width: 100%;
 }
 .footer-content{
     padding: 100px;
